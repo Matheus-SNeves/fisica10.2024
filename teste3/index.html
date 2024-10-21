@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionamento do Micro-ondas</title>
+    <style>
+        body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  position: relative;
+  overflow: auto;
+  background: url('wave.png') repeat fixed;
+  background-size: cover;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 80%;
+  max-width: 1000px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header, footer {
+  background: #1E3A5F; /* Azul mais escuro */
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+main {
+  line-height: 1.6;
+}
+
+h2, h3 {
+  color: #1E3A5F; /* Azul mais escuro */
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#espectro {
+  width: 388px;
+  height: auto;
+}
+
+#chocolate {
+  width: 50%;
+  height: auto;
+}
+
+#estudo {
+  width: 655px;
+  height: auto;
+}
+
+#pipoca {
+  width: 50%;
+  height: auto;
+}
+
+#1microondas {
+  width: 45%;
+  height: auto;
+}
+
+#spencer1foto {
+  width: 45%;
+  height: auto;
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background: #1E3A5F; /* Azul mais escuro */
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.simulation-link {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1E3A5F; /* Azul mais escuro */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  width: 200px;
+}
+
+.simulation-link:hover {
+  background-color: #15334A;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 100%;
+  }
+
+  main {
+      padding: 1em;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  .side-by-side {
+      flex-direction: column;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container waves">
+        <header>
+            <h1>Funcionamento do Micro-ondas</h1>
+        </header>
+        <main>
+            <p>Percy Spencer era um engenheiro americano que trabalhava na Raytheon, uma empresa que produzia magnetrons, componentes usados em radares. Durante a Segunda Guerra Mundial, o micro-ondas foi desenvolvido com o objetivo de detectar aeronaves inimigas. As micro-ondas geradas pelos radares eram refletidas de volta pelas aeronaves, e o eco fornecia informações precisas sobre sua localização, aproximação, direção e outros detalhes.</p>
+            <div class="side-by-side">
+                <img src="fuselagemAviao.jpeg" id="aviao">
+                <img src="espectro.jpeg" id="espectro">
+            </div>
+            <p>Em 1945, durante testes com um novo tubo de vácuo, Percy Spencer percebeu que o chocolate em seu bolso havia derretido. Ele rapidamente concluiu que as micro-ondas agitavam as moléculas, aquecendo os alimentos. O primeiro forno micro-ondas pesava cerca de 340 kg, tinha quase 1,70 m de altura e emitia uma radiação quase três vezes maior que a dos modelos atuais. A pipoca foi o primeiro alimento a ser preparado com o micro-ondas.</p>
+            <img src="chocolateSpencer.jpeg" id="chocolate">
+            <h2>Funcionamento</h2>
+            <h3>Por Aquecimento Dialético</h3>
+            <p>O aquecimento dielétrico, que utiliza radiação de micro-ondas, continua sendo empregado em radares e sistemas de radiogoniometria, especialmente em navios e aeronaves. No aquecimento de alimentos, as micro-ondas eletromagnéticas fazem com que moléculas polares, como as de água, vibrem, gerando calor. Essas moléculas absorvem energia do campo elétrico gerado pelas ondas e, ao cessar a radiação, essa energia é liberada na forma de calor, aquecendo o alimento. A presença de água é essencial para o processo, o que explica por que alimentos muito secos não aquecem bem. Moléculas apolares ou cristalinas, como as de porcelana, não absorvem eficientemente as micro-ondas.</p>
+            <h3>Por Condução Iônica</h3>
+            <p>O aquecimento por condução iônica ocorre quando há íons dissolvidos no alimento. Por exemplo, na água pura, há poucos íons devido à sua dissociação, mas ao adicionar sal (NaCl), os íons de sódio (Na+) e cloro (Cl-) se dissociam. A água com sal aquece mais que a água pura, pois o campo eletromagnético das micro-ondas faz com que esses íons migrem, gerando calor por fricção.</p>
+            <img src="estudo.jpeg" id="estudo">
+            <p>Com isso, Spencer começou a realizar diversos experimentos em que colocava alimentos dentro do tubo de magnetron e constatou que eles estouravam devido à pressão interna, notando que haviam sido cozinhados de dentro para fora. O primeiro alimento a ser produzido pelo micro-ondas foi um saco de pipoca.</p>
+            <img src="pipocaMicroondas.jpeg" id="pipoca">
+            <h2>Patente e Comercialização</h2>
+            <p>O que resultou na primeira patente para uso das micro-ondas para efeitos culinários, em 1946. Após essa patente, conseguiu, um ano depois, em 1947, produzir e comercializar o primeiro forno micro-ondas da história. Este media 1,8 metros de altura, pesava 340 kg e custava cerca de 5.000 dólares (o equivalente hoje a 20.150 reais).</p>
+            <div class="side-by-side">
+                <img src="1microondas.jpeg" id="1microondas">
+                <img src="spencer1foto.jpeg" id="spencer1foto">
+            </div>
+            <a href="index1.html" class="simulation-link">Acessar Simulação</a>
+            <h2>Explicação da Simulação</h2>
+            <p>A simulação serve para mostrar visualmente como as ondas de micro-ondas funcionam dentro de um forno micro-ondas, explicando o processo de aquecimento dos alimentos. Ela permite que você interaja com os controles do micro-ondas, ajustando a potência e o tempo, para ver como esses ajustes influenciam o comportamento das ondas. Isso ajuda a entender:</p>
+            <ul>
+                <li><b>Como as micro-ondas aquecem os alimentos:</b> Ao ver as ondas se movendo dentro do visor.</li>
+                <li><b>A influência da potência:</b> Aumentar ou diminuir a potência mostra como isso afeta a intensidade das ondas.</li>
+                <li><b>A importância do tempo:</b> Ver o tempo diminuir e as ondas pararem quando o ciclo termina ilustra o processo de aquecimento completo.</li>
+            </ul>
+            <p>Em suma, a simulação é uma ferramenta educativa e interativa para compreender o funcionamento de um micro-ondas. Você pode acessar a simulação através do link acima para experimentar como tudo isso funciona em tempo real.</p>
+        </main>
+        <footer>
+            <p>&copy; 2023 Funcionamento do Micro-ondas</p>
+        </footer>
+    </div>
+</body>
+</html>
