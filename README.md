@@ -1,1 +1,2 @@
-# fisica10.2024
+# Trabalho de física sobre o Microondas
+## Integrantes: Isabelle Almeida e Matheus Neves
