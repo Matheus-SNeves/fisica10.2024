@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micro-ondas</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: black;
+      display: flex;
+      width: 100%;
+    }
+
+    header h1 {
+      color: white;
+      font-size: 1.6em;
+      font-weight: bold;
+      margin-left: 20px;
+      width: 30%;
+      margin: 1.3vw;
+    }
+
+    header .links {
+      display: flex;
+      list-style: none;
+      margin-left: 20px;
+      width: 50%;
+      margin: 2vw;
+      padding-left: 30vw;
+      font-size: 1vw;
+    }
+
+    header .links a {
+      text-decoration: none;
+      color: white;
+      margin: 0.5vw;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    h3 {
+      font-size: 5vh;
+      font-family: "Montserrat", sans-serif;
+      color: black;
+      text-shadow: 1px 1px 1px black;
+    }
+
+    main {
+      padding-top: 2vw;
+      line-height: 1.6;
+      padding: 2vw;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      align-items: center;
+    }
+
+    & .div11 {
+      display: flex;
+
+      & .div1{
+        width: 50%;
+        font-size: 1.3em;
+      }
+
+      & .div2{
+        margin-left: 10vw;
+      }
+    }
+
+    #texto5{
+      font-size: 1.3em;
+      padding-top: 3vw;
+    }
+
+    #texto6{
+      font-size: 1.3em;
+      & h1{
+        font-size: 1.4em;
+      }
+    }
+    .historiamicro img,
+    .funcionamento img,
+    .aplicacao img,
+    #espectro {
+      display: block;
+      margin: 0 auto;
+    }
+
+    #espectro {
+      width: 388px;
+      height: auto;
+    }
+
+    #chocolate {
+      width: 25%;
+      height: auto;
+    }
+
+    #estudo {
+      width: 800px;
+      height: auto;
+    }
+
+    #pipoca {
+      width: 25%;
+      height: auto;
+    }
+
+    #spencer1foto {
+      width: 45%;
+      height: auto;
+    }
+
+    #aviao{
+      width: 30vw;
+      height: auto;
+    }
+    .simulation-link {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+      width: 200px;
+    }
+
+    .simulation-link:hover {
+      background-color: black;
+    }
+
+    .spencerdiv {
+      width: 100%;
+    }
+
+    .spencerdiv1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.4vw;
+      color: black;
+      height: 70vh;
+    }
+
+    .spencerdiv1 p {
+      text-align: justify;
+    }
+
+    .spencerdiv1 img {
+      width: 45%;
+      height: auto;
+      padding-right: 2vw;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    .funcionamento-1 {
+      display: flex;
+      justify-content: center;
+      gap: 2vw;
+      padding-top: 1vw;
+    }
+
+    .funcionamento1,
+    .funcionamento2 {
+      flex: 1;
+      max-width: 45%;
+      box-sizing: border-box;
+      padding: 1vw;
+      text-align: left;
+    }
+
+    footer {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: black;
+      color: white;
+      font-size: 2vh;
+      width: 100%;
+      height: 4vh;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <H1>Forno Micro-ondas</H1>
+
+    <div class="links">
+      <nav>
+        <li>
+          <ul><a href="#biografia1">BIOGRAFIA</a>
+            <a href="#historia1">HISTORIA</a>
+            <a href="#caracteristicas1">CARACTERISTICAS</a>
+            <a href="#aplicacao1">APLICAÇÃO</a>
+            <a href="#simulacao1">SIMULAÇÃO</a>
+          </ul>
+        </li>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="spencerdiv">
+      <h3 id="biografia1">BIOGRAFIA DE PERCY SPENCER</h3>
+      <div class="spencerdiv1">
+        <p>Percy Spencer foi um engenheiro eletricista que nasceu em 1894 no estado de Maine, nos Estados Unidos. Ele
+          abandonou a escola aos 12 anos para trabalhar em uma fábrica de algodão e, aos 18 anos, ingressou na Marinha
+          dos
+          EUA como operador de rádio. Com a ajuda de livros didáticos, Spencer aprendeu física e cálculo por conta
+          própria. Após ser dispensado da Marinha, começou a trabalhar na Raytheon, onde foi responsável pela produção
+          de
+          uma grande quantidade de equipamentos de radar. Por suas contribuições, ele recebeu o Prêmio de Serviço
+          Público
+          Distinto da Marinha dos EUA. Ele foi introduzido no Hall da Fama dos Inventores em 1999.</p>
+        <img src="spencer.jpeg" id="spencer">
+      </div>
+
+    </div>
+    <div class="historiamicro">
+      <h3 id="historia1">HISTÓRIA DO MICRO-ONDAS</h3>
+      <div class="div11">
+        <div class="div1">
+          <p>Tudo começou na Segunda Guerra Mundial, na Raytheon, uma empresa que produzia magnetrons, componentes
+            usados em
+            radares. Spencer estava realizando experimentos com um novo tipo de tubo de vácuo, o qual gerava
+            micro-ondas,
+            utilizadas para detectar aeronaves inimigas. As micro-ondas emitidas pelos radares eram refletidas de volta
+            pelas aeronaves, e o eco fornecia informações precisas sobre a localização, aproximação, direção e outros
+            detalhes. </p>
+        </div>
+        <div class="div2">
+          <img src="fuselagemAviao.jpeg" id="aviao">
+        </div>
+      </div>
+      <p id="texto5">Durante um desses experimentos, Spencer notou que a barra de chocolate em seu bolso havia derretido devido ao
+        calor gerado pelo tubo.</p>
+      <img src="chocolateSpencer.jpeg" id="chocolate">
+      <p id="texto5">Com isso, Spencer começou a realizar diversos experimentos em que colocava alimentos dentro do tubo de
+        magnétron e constatou que eles estouravam devido à pressão interna, notando que haviam sido cozinhados de dentro
+        para fora. O primeiro alimento a ser produzido pelo micro-ondas foi um saco de pipoca.</p>
+      <img src="pipocaMicroondas.jpeg" id="pipoca">
+      <p id="texto5">O que resultou na primeira patente para uso das micro-ondas para efeitos culinários, em 1946. Após essa
+        patente, conseguiu, um ano depois, em 1947, produzir e comercializar o primeiro forno micro-ondas da história.
+        Este média 1,8 metros de altura, pesava 340 kg e custava cerca de 5.000 dólares.</p>
+      <img src="spencer1foto.jpeg" id="foto1">
+    </div>
+    <div class="funcionamento">
+      <h3 id="funcionamento1">FUNCIONAMENTO</h3>
+      <div class="funcionamento-1">
+        <div class="funcionamento1">
+          <h4 id="texto6">Por aquecimento dialético:</h4>
+          <p id="texto6">O aquecimento dielétrico, que utiliza radiação de micro-ondas, continua sendo empregado em radares e
+            sistemas
+            de radiogoniometria, especialmente em navios e aeronaves. No aquecimento de alimentos, as micro-ondas
+            eletromagnéticas fazem com que moléculas polares, como as de água, vibrem, gerando calor. Essas moléculas
+            absorvem energia do campo elétrico gerado pelas ondas e, ao cessar a radiação, essa energia é liberada na
+            forma
+            de calor, aquecendo o alimento. A presença de água é essencial para o processo, o que explica por que
+            alimentos
+            muito secos não aquecem bem. Moléculas apolares ou cristalinas, como as de porcelana, não absorvem
+            eficientemente as micro-ondas.</p>
+        </div>
+        <div class="funcionamento2">
+          <h4 id="texto6">Por condução iônica:</h4>
+          <p id="texto6"> O aquecimento por condução iônica ocorre quando há íons dissolvidos no alimento. Por exemplo, na água pura,
+            há
+            poucos íons devido à sua dissociação, mas ao adicionar sal (NaCl), os íons de sódio (Na+) e cloro (Cl-) se
+            dissociam. A água com sal aquece mais que a água pura, pois o campo eletromagnético das micro-ondas faz com
+            que
+            esses íons migrem, gerando calor por fricção.</p>
+        </div>
+      </div>
+    </div>
+    <div class="caracteristicas">
+      <h3 id="caracteristicas1">CARACTERÍSTICAS DAS MICRO-ONDAS</h3>
+      <img src="espectro.jpeg" id="espectro">
+      <p id="texto5">As micro-ondas tem seu comprimento em torno de 3. 105 nm e 3. 108 nm, sua frequência na faixa de 103 a 104 MHz.
+        Entretanto, uma de suas características é a capacidade de fazer migração de íons e rotação de dipolos.
+        Em síntese, a frequência dos fornos micro-ondas é de, aproximadamente, 2,45 GHz.</p>
+    </div>
+
+    </div>
+    <div class="aplicacao">
+      <h3 id="aplicacao1">APLICAÇÃO NA MEDICINA</h3>
+      <img src="estudo.jpeg" id="estudo">
+    </div>
+
+    <div class="simulacao">
+      <h3 id="simulacao1">SIMULAÇÃO DE UM MICRO-ONDAS</h3>
+      <a href="index1.html" class="simulation-link">Acessar Simulação</a>
+      <h2>Explicação da Simulação</h2>
+      <p id="texto6">A simulação serve para mostrar visualmente como as ondas de micro-ondas funcionam dentro de um forno
+        micro-ondas, explicando o processo de aquecimento dos alimentos. Ela permite que você interaja com os controles
+        do micro-ondas, ajustando a potência e o tempo, para ver como esses ajustes influenciam o comportamento das
+        ondas. Isso ajuda a entender:</p>
+      <ul>
+        <li id="texto6"><b >Como as micro-ondas aquecem os alimentos:</b> Ao ver as ondas se movendo dentro do visor.</li>
+        <li id="texto6"><b>A influência da potência:</b> Aumentar ou diminuir a potência mostra como isso afeta a intensidade das
+          ondas.</li>
+        <li id="texto6"><b>A importância do tempo:</b> Ver o tempo diminuir e as ondas pararem quando o ciclo termina ilustra o
+          processo de aquecimento completo.</li>
+      </ul>
+      <p id="texto6">Em suma, a simulação é uma ferramenta educativa e interativa para compreender o funcionamento de um
+        micro-ondas. Você pode acessar a simulação através do link acima para experimentar como tudo isso funciona em
+        tempo real.</p>
+    </div>
+
+
+  </main>
+  <footer id="texto6">
+    &copy; 2024 - Isabelle Almeida e Matheus Neves - 2°EM
+  </footer>
+</body>
+
+</html>
